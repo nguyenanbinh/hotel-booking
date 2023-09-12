@@ -4,8 +4,8 @@
         <!-- Required Meta Tags -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-        <!-- Bootstrap CSS --> 
+
+        <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/bootstrap.min.css') }}">
         <!-- Animate Min CSS -->
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/animate.min.css') }}">
@@ -15,10 +15,10 @@
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/boxicons.min.css') }}">
         <!-- Magnific Popup CSS -->
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/magnific-popup.css') }}">
-        <!-- Owl Carousel Min CSS --> 
+        <!-- Owl Carousel Min CSS -->
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/owl.carousel.min.css') }}">
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/owl.theme.default.min.css') }}">
-        <!-- Nice Select Min CSS --> 
+        <!-- Nice Select Min CSS -->
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/nice-select.min.css') }}">
         <!-- Meanmenu CSS -->
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/meanmenu.css') }}">
@@ -38,7 +38,7 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
     <!-- toastr CSS -->
 
-        <title>Easy Hotel </title>
+        <title>Atoli Hotel </title>
     </head>
     <body>
 
@@ -96,7 +96,7 @@
         <script src="{{ asset('frontend/assets/js/contact-form-script.js') }}"></script>
         <!-- Custom JS -->
         <script src="{{ asset('frontend/assets/js/custom.js') }}"></script>
-        
+
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
 <script>
@@ -117,9 +117,9 @@
 
     case 'error':
     toastr.error(" {{ Session::get('message') }} ");
-    break; 
+    break;
  }
- @endif 
+ @endif
 </script>
 
 

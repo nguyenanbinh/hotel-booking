@@ -5,8 +5,8 @@
     <div class="container">
         <div class="banner-content">
             <h1>Discover a Hotel & Resort to Book a Suitable Room</h1>
-            
-             
+
+
         </div>
     </div>
 </div>
@@ -22,10 +22,10 @@
                         <div class="form-group">
                             <label>CHECK IN TIME</label>
                             <div class="input-group">
-                                <input id="datetimepicker" type="text" class="form-control" placeholder="11/02/2020">
+                                <input id="datetimepicker" type="text" class="form-control" placeholder="{{ \Carbon\Carbon::today()->format('m/d/Y') }}">
                                 <span class="input-group-addon"></span>
                             </div>
-                            <i class='bx bxs-chevron-down'></i>	
+                            <i class='bx bxs-chevron-down'></i>
                         </div>
                     </div>
 
@@ -33,10 +33,10 @@
                         <div class="form-group">
                             <label>CHECK OUT TIME</label>
                             <div class="input-group">
-                                <input id="datetimepicker-check" type="text" class="form-control" placeholder="11/02/2020">
+                                <input id="datetimepicker-check" type="text" class="form-control" placeholder="{{ \Carbon\Carbon::today()->format('m/d/Y') }}">
                                 <span class="input-group-addon"></span>
                             </div>
-                            <i class='bx bxs-chevron-down'></i>	
+                            <i class='bx bxs-chevron-down'></i>
                         </div>
                     </div>
 
@@ -48,7 +48,7 @@
                                 <option>02</option>
                                 <option>03</option>
                                 <option>04</option>
-                            </select>	
+                            </select>
                         </div>
                     </div>
 
