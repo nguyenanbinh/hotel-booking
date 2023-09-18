@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Backend\RoomTypeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserController;
@@ -35,6 +36,13 @@ Route::middleware(['auth','roles:admin'])->group(function(){
     Route::get('/admin/change/password', [AdminController::class, 'adminChangePassword'])->name('admin.change.password');
     Route::post('/admin/password/update', [AdminController::class, 'adminPasswordUpdate'])->name('admin.password.update');
 
+    // RoomType All Route
+    Route::controller(RoomTypeController::class)->group(function(){
+        Route::get('/room/type/list', 'getRoomType')->name('room.type.list');
+        Route::get('/add/room/type', 'createRoomType')->name('add.room.type');
+        Route::post('/room/type/store', 'storeRoomType')->name('room.type.store');
+
+    });
 }); // End Admin Group Middleware
 
 Route::get('/admin/login', [AdminController::class, 'adminLogin'])->name('admin.login');
