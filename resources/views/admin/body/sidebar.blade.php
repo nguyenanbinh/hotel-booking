@@ -8,10 +8,10 @@
         </div>
         <div class="toggle-icon ms-auto"><i class='bx bx-arrow-back'></i>
         </div>
-     </div>
+    </div>
     <!--navigation-->
     <ul class="metismenu" id="menu">
-        
+
         <li>
             <a href="widgets.html">
                 <div class="parent-icon"><i class='bx bx-home-alt'></i>
@@ -19,24 +19,22 @@
                 <div class="menu-title">Dashboard</div>
             </a>
         </li>
-        
-        
+
+
         <li>
             <a href="javascript:;" class="has-arrow">
                 <div class="parent-icon"><i class="bx bx-category"></i>
                 </div>
-                <div class="menu-title">Application</div>
+                <div class="menu-title">Manage Room Type</div>
             </a>
             <ul>
-                <li> <a href="app-emailbox.html"><i class='bx bx-radio-circle'></i>Email</a>
+                <li><a href="{{ route('room.type.list') }}"><i class='bx bx-radio-circle'></i>Room Type List </a>
                 </li>
-                <li> <a href="app-chat-box.html"><i class='bx bx-radio-circle'></i>Chat Box</a>
-                </li>
-                 
+
             </ul>
         </li>
         <li class="menu-label">UI Elements</li>
-        
+
         <li>
             <a href="javascript:;" class="has-arrow">
                 <div class="parent-icon"><i class='bx bx-cart'></i>
@@ -44,11 +42,11 @@
                 <div class="menu-title">eCommerce</div>
             </a>
             <ul>
-                <li> <a href="ecommerce-products.html"><i class='bx bx-radio-circle'></i>Products</a>
+                <li><a href="ecommerce-products.html"><i class='bx bx-radio-circle'></i>Products</a>
                 </li>
-                <li> <a href="ecommerce-products-details.html"><i class='bx bx-radio-circle'></i>Product Details</a>
+                <li><a href="ecommerce-products-details.html"><i class='bx bx-radio-circle'></i>Product Details</a>
                 </li>
-                
+
             </ul>
         </li>
         <li>
@@ -58,20 +56,18 @@
                 <div class="menu-title">Components</div>
             </a>
             <ul>
-                <li> <a href="component-alerts.html"><i class='bx bx-radio-circle'></i>Alerts</a>
+                <li><a href="component-alerts.html"><i class='bx bx-radio-circle'></i>Alerts</a>
                 </li>
-                <li> <a href="component-accordions.html"><i class='bx bx-radio-circle'></i>Accordions</a>
+                <li><a href="component-accordions.html"><i class='bx bx-radio-circle'></i>Accordions</a>
                 </li>
-                 
+
             </ul>
         </li>
-         
-          
-       
-         
+
+
         <li class="menu-label">Others</li>
-      
-      
+
+
         <li>
             <a href="#" target="_blank">
                 <div class="parent-icon"><i class="bx bx-support"></i>
