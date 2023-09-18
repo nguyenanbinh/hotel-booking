@@ -20,13 +20,13 @@
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item">
                             <a href="#" class="nav-link active">
-                                Home 
+                                Home
                                 <i class='bx bx-chevron-down'></i>
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
                                     <a href="index.html" class="nav-link active">
-                                        Home One  
+                                        Home One
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -48,7 +48,7 @@
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                Pages 
+                                Pages
                                 <i class='bx bx-chevron-down'></i>
                             </a>
                             <ul class="dropdown-menu">
@@ -57,7 +57,7 @@
                                         Booking
                                     </a>
                                 </li>
-                                
+
                                 <li class="nav-item">
                                     <a href="team.html" class="nav-link">
                                         Team
@@ -98,7 +98,7 @@
                                         Check out
                                     </a>
                                 </li>
-                                
+
                                 <li class="nav-item">
                                     <a href="sign-in.html" class="nav-link">
                                         Sign In
@@ -128,7 +128,7 @@
                                         404 page
                                     </a>
                                 </li>
-                                
+
                                 <li class="nav-item">
                                     <a href="coming-soon.html" class="nav-link">
                                         Coming Soon
@@ -139,23 +139,23 @@
 
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                Services 
+                                Services
                                 <i class='bx bx-chevron-down'></i>
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
                                     <a href="services-1.html" class="nav-link">
-                                        Services Style One 
+                                        Services Style One
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="services-2.html" class="nav-link">
-                                        Services Style Two 
+                                        Services Style Two
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="service-details.html" class="nav-link">
-                                        Service Details 
+                                        Service Details
                                     </a>
                                 </li>
                             </ul>
@@ -169,17 +169,17 @@
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
                                     <a href="blog-1.html" class="nav-link">
-                                        Blog Style One 
+                                        Blog Style One
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="blog-2.html" class="nav-link">
-                                        Blog Style Two 
+                                        Blog Style Two
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="blog-details.html" class="nav-link">
-                                        Blog Details 
+                                        Blog Details
                                     </a>
                                 </li>
                             </ul>
@@ -193,12 +193,12 @@
                             <ul class="dropdown-menu">
                                 <li class="nav-item">
                                     <a href="room.html" class="nav-link">
-                                        Rooms 
+                                        Rooms
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="room-details.html" class="nav-link">
-                                        Room Details 
+                                        Room Details
                                     </a>
                                 </li>
                             </ul>
